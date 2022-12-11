@@ -1,4 +1,4 @@
-package com.carlosgr.spring.service.interfaces;
+package com.carlosgr.spring.service;
 
 import java.util.List;
 
@@ -10,13 +10,15 @@ import org.springframework.context.annotation.Primary;
 
 import com.carlosgr.spring.persistence.Order;
 import com.carlosgr.spring.persistence.Product;
+import com.carlosgr.spring.service.interfaces.OrderServiceGenericImpl;
 
 /**
  * NTT Data - Spring - Taller 2
  * 
- * Clase de configuración de beans para . En función de si está dentro o fuera
- * de la península (qualifier), se instanciará un OrderServiceGenericImpl con
- * datos espíficos como comunidades y porcentaje de impuestos.
+ * Clase de configuración de beans para el servicio de envío de pedidos. En
+ * función de si está dentro o fuera de la península (qualifier), se instanciará
+ * un OrderServiceGenericImpl con datos espíficos como comunidades y porcentaje
+ * de impuestos.
  * 
  * @author NTT Data - Carlos González Ruiz
  */
